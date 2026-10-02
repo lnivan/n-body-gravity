@@ -40,7 +40,7 @@ python SimulacionPlanetas.py
   \mathbf v \leftarrow \mathbf v + 20\,\mathbf a\,\Delta t,\qquad \mathbf x \leftarrow \mathbf x + 20\,\mathbf v\,\Delta t
   ```
 
-- **Initial conditions.** The planet starts 300 px to the right of the star, moving at 16.2 relative to it, a little above the circular speed $\sqrt{G M / r} \approx 14.9$. It therefore starts at the near end of an ellipse: in a test run its distance from the star varied between 300 and about 430 px, with one orbit every 8 seconds of real time. The moon starts 50 px beyond the planet at 10 relative to it, below the circular 11.5, so its distance from the planet swung between about 24 and 50 px, with one orbit every 0.8 seconds.
+- **Initial conditions.** The planet starts 300 px to the right of the star, moving at 16.2 relative to it, a little above the two-body circular speed $\sqrt{G (M + m) / r} \approx 15.6$. It therefore starts at the near end of an ellipse: in a test run its distance from the star varied between 300 and about 430 px, with one orbit every 8 seconds of real time. The moon starts 50 px beyond the planet at 10 relative to it, below the circular 11.9, so its distance from the planet swung between about 24 and 50 px, with one orbit every 0.8 seconds.
 
 ## Limitations
 
