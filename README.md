@@ -7,7 +7,6 @@
 ![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Pygame](https://img.shields.io/badge/Pygame-2.x-30363D?style=flat-square)
 ![Status](https://img.shields.io/badge/status-working-2DA44E?style=flat-square)
-![Year](https://img.shields.io/badge/year-2023-8250DF?style=flat-square)
 
 <img src="docs/preview.gif" alt="A large white disc with a small planet circling it, and a tiny moon circling the planet, on a black background" width="560">
 
@@ -48,10 +47,6 @@ python SimulacionPlanetas.py
 - There are no orbit trails, labels, zoom or pause, so the moon is a dot about 3 px wide.
 - Bodies never collide and there is no softening, so a close encounter gives huge accelerations, and two bodies at the same point would divide by zero.
 - The step follows the wall clock and the loop is uncapped, so it keeps one CPU core busy, and any stall, such as dragging the window, becomes one large step that can throw the orbits off.
-
-## Background
-
-Written in or before June 2023; the file comes from a code backup made that month and was put under version control in 2026. It uses the same hand-written `Vector2` class as the ball-collision experiments from the same backup, including a few methods it never calls.
 
 ---
 
